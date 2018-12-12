@@ -1,0 +1,18 @@
+Source: ptxdist-2018.05.0
+Section: devel
+Priority: optional
+Maintainer: Denis Osterland <Denis.Osterland@diehl.com>
+Build-Depends: debhelper (>= 9), autotools-dev, bison, flex, python2.7-dev
+Standards-Version: 3.9.5
+Homepage: http://www.pengutronix.de/software/ptxdist/index.html
+#Vcs-Git: git://git.debian.org/collab-maint/ptxdist-2015.12.0.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ptxdist-2015.12.0.git;a=summary
+
+Package: ptxdist-2018.05.0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gawk, python
+Description: PTXdist - Reproducible Embedded Linux Systems
+ Wie baut man eine nachvollziehbare Linux-Distribution für Embedded Systems, bei denen es auf langfristige Wartung und kompakten Footprint ankommt?
+ PTXdist ist ein GPL lizensiertes Build System, das bei Pengutronix zur Erzeugung von Userlands entwickelt wurde. Als Konfigurationssystem dient Kconfig aus dem Linux-Kernel.
+ Obwohl PTXdist (abzüglich der Patche) nach wie vor auf eine Diskette paßt, kann man ein komplettes Root-Filesystem mit Hilfe von "ptxdist go" bauen.
+
