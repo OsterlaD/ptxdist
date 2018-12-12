@@ -19,7 +19,7 @@ set -e
 
 case "$1" in
     remove|upgrade|deconfigure)
-	update-alternatives --remove ptxdist /usr/lib/x86_64-linux-gnu/ptxdist-2017.12.0/bin/ptxdist-auto-version
+	update-alternatives --remove ptxdist /usr/lib/x86_64-linux-gnu/ptxdist-2018.05.0/bin/ptxdist-auto-version
     ;;
     failed-upgrade)
     ;;
