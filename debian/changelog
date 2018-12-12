@@ -1,3 +1,9 @@
+ptxdist-2018.05.0 (2018.05.0-2diehl) unstable; urgency=medium
+
+  * Correct postinst and prerm.
+
+ -- Denis Osterland <osterlad@cwpc1435.diehlako.local>  Thu, 14 Jun 2018 15:20:22 +0200
+
 ptxdist-2018.05.0 (2018.05.0-1diehl) unstable; urgency=low
 
   * ptxdist-2018.05.0
