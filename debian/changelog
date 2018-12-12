@@ -1,3 +1,9 @@
+ptxdist-2018.05.0 (2018.05.0-4diehl) unstable; urgency=medium
+
+  * Revert change to PTXDIST_BSP_AUTOVERSION and handle it in BSP.
+
+ -- Denis Osterland <Denis.Osterland@diehl.com>  Wed, 12 Dec 2018 17:02:48 +0100
+
 ptxdist-2018.05.0 (2018.05.0-3diehl) unstable; urgency=medium
 
   * Only use tags on current branch for PTXDIST_BSP_AUTOVERSION.
